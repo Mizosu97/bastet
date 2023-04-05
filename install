@@ -2,7 +2,7 @@
 
 # Replace "bash" with the shell you want to use for your installation script.
 
-echo "Create an encryption password: "
+echo -n "Create an encryption password for bastet: "
 read pass
 
 echo "Compiling bastet."
