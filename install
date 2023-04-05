@@ -2,6 +2,13 @@
 
 # Replace "bash" with the shell you want to use for your installation script.
 
-sudo mv demoProgram /usr/bin
-mkdir $HOME/lol
-sudo mkdir /etc/anotherlol
+echo "Create an encryption password: "
+read pass
+
+echo "Compiling bastet."
+sed "s/password123/${pass}/g" bastet.c > bastet_gen.c
+gcc src/bastet_gen.c -o src/bastet
+
+echo "Installing bastet."
+chmod +x src/bastet
+sudo mv src/bastet /usr/bin
