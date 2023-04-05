@@ -20,7 +20,7 @@ Bastet is used from the command line. Methods for running a program from the com
 ### Encrypt a file
 `bastet e <fileName>`
 
-### Decrypt a file**
+### Decrypt a file
 `bastet d <fileName>`
 
 ## Notes
