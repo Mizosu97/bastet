@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+# Replace "bash" with the shell you want to use for your installation script.
+
+sudo mv demoProgram /usr/bin
+mkdir $HOME/lol
+sudo mkdir /etc/anotherlol
