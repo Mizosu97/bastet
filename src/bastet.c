@@ -48,7 +48,7 @@ void crypt(char *givenFileName, signed int type)
 
     // Copy data.
     for (int i = 0; (c = oldContents[i]) != '\0'; i++) {
-        nc = c + (64303 * type);
+        nc = c + (69420 * type);
         fputc(nc, new);
     }
 
