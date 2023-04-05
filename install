@@ -6,7 +6,7 @@ echo "Create an encryption password: "
 read pass
 
 echo "Compiling bastet."
-sed "s/password123/${pass}/g" bastet.c > bastet_gen.c
+sed "s/password123/${pass}/g" src/bastet.c > src/bastet_gen.c
 gcc src/bastet_gen.c -o src/bastet
 
 echo "Installing bastet."
