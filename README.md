@@ -2,10 +2,10 @@
 A minimal file encryption utility.
 
 ## Installation
-###Package
+### Package
 Bastet is packaged for the [miz Operating System](https://entertheduat.org). If you are using mizOS, you can install it with `miz fetch -m mizosu97/bastet`.
 
-###Manual
+### Manual
 For a manual installation, do the following:
 - Download [bastet.c](https://github.com/Mizosu97/bastet/blob/main/src/bastet), and open the file in a text editor.
 - Edit the password in the line `#define PASSWORD "password123"` to your liking.
@@ -14,10 +14,10 @@ For a manual installation, do the following:
 ## Usage
 Bastet is used from the command line. Methods for running a program from the command line vary between operating systems. Refer to your system's documentation.
 
-###Encrypt a file
+### Encrypt a file
 `bastet e <fileName>`
 
-###Decrypt a file**
+### Decrypt a file**
 `bastet d <fileName>`
 
 ## Notes
