@@ -2,6 +2,9 @@
 A minimal file encryption utility.
 
 ## Installation
+
+**PASSWORD MUST BE NO LONGER THAN 21 CHARACTERS**
+
 ### Package
 Bastet is packaged for the [miz Operating System](https://entertheduat.org). If you are using mizOS, you can install it with `miz fetch -m mizosu97/bastet`.
 
