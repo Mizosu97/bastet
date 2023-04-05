@@ -1,11 +1,11 @@
 local info = {}
 
-info.pacman_depends = {"python", "cmatrix"}
+info.pacman_depends = {"gcc"}
 
 info.aur_depends = {}
 
-info.directories = {"$HOME/lol", "/etc/anotherlol"}
+info.directories = {}
 
-info.files = {"/usr/bin/demoProgram"}
+info.files = {"/usr/bin/bastet"}
 
 return info
