@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# some update stuff here
-sudo rm /usr/bin/demoProgram
-sudo mv demoProgram /usr/bin
