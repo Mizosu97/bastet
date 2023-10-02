@@ -24,7 +24,7 @@ gcc src/bastet_gen.c -o src/bastet
 
 echo "Installing bastet."
 chmod +x src/bastet
-sudo mv src/bastet /usr/bin⏎
+sudo mv src/bastet /usr/bin/
 ]]
 
 
