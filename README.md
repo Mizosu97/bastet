@@ -1,12 +1,7 @@
 # bastet
-A minimal file encryption utility.
+A minimal file encryption utility. This is just a random C practice program I decided to publish.
 
 ## Installation
-
-**PASSWORD MUST BE NO LONGER THAN 21 CHARACTERS**
-
-### Package
-Bastet is packaged for the [miz Operating System](https://entertheduat.org). If you are using mizOS, you can install it with `miz fetch -m mizosu97/bastet`.
 
 ### Manual
 For a manual installation, do the following:
